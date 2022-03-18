@@ -6,15 +6,31 @@
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Hubballi', cursive;
 	color: #202030;
 	background-color: #f8f8fc;
 }
+h1{
+	font-family: 'Oswald', sans-serif;;
+	color: #BD5317;
+	font-height:100px;
+font-size: 62px;
+	letter-spacing:-1pt
+}
+h2{font-family: 'Oswald', sans-serif;;
+	color: #BD5317;}
 
+h4{font-family: 'Oswald', sans-serif;}
+
+.studentprof {
+font-family: 'Playfair Display', serif;
+color:#BD5317;
+font-size: 14px;
+}
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #FEE4CD;
 }
 
 .resume-main {
@@ -22,7 +38,7 @@ body {
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #FEE4CD;
 }
 
 /* Styles for lists in the document */
@@ -36,7 +52,7 @@ body {
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color: #506BE6;
 }
 
 .biography-details li, .skill-list li {
